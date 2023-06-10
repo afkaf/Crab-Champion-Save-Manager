@@ -1,6 +1,6 @@
 # Crab Champions Save Manager
 
-This tool is a custom solution designed to help you manage your game runs in Crab Champions. As the game allows only one saved run at a time, this script will let you extract, save, and load multiple runs as you need. With the functionality of the tool, you can swap out different runs without permanently overwriting your current game state. 
+This tool is a custom solution designed to help you manage your game runs in Crab Champions. As the game allows only one saved run at a time, this script will let you extract, save, and load multiple runs as you need. With the functionality of the tool, you can swap out different runs without permanently overwriting your current game stats, rewards, or unlocks.
 
 ## Features
 
