@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Champion Save Manager</title>
+    <link rel="stylesheet" href=".css/style.css">
+<script defer src="bundle.js"></script></head>
+
+<body id='body'>
+
+<div class="header">
+    <h1>Crab Champion Save Manager</h1>
+    <h4>Manage extraction and insertion of current runs in your save file while maintaining unlocked rewards.<br/><br/>Keep up with multiple runs so you can play solo and with any friend without ruining your current run.</h4>
+</div>
+
+<div class="container">
+    <div class="file-converter">
+        <div class="sav-json">
+            <h3>SAV to JSON</h3>
+            <input id="sav-input" type="file"/>
+        </div>
+        <div class="json-sav">
+            <h3>JSON to SAV</h3>
+            <input id="json-input" type="file"/>
+        </div>
+    </div>
+    <div class="run-extract-insert" id="run-extract-insert">
+        <div class="insert-run">
+            <h3>Insert Run</h3>
+            <input id="insert-input" type="file">
+        </div>
+
+        <div class="extract-run" id='extract-run'>
+            <h3>Extract Run</h3>
+            <div class='form'>
+                <button id="extract-output">extract</button>
+                <input id="run-name" type="text" placeholder='Enter Filename...'>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="output-title" id="output-title-div">
+    <h4 id="output-title">Current Run AutoSave:</h4>
+</div>
+<div class="output" id="output-div">
+    <p id="output">Output will show here eventually!</p>
+</div>
+
+</body>
+</html>
