@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 2% 0;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.file-converter, .run-extract-insert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.run-extract-insert {
+    display: none;
+}
+
+.sav-json, .json-sav, .insert-run, .extract-run {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.extract-run {
+    display: none;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form button {
+    margin-right: 5px;
+}
+
+.form input {
+    width: 100%;
+}
+
+input[type=file], input[type=text], button {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+input[type=file]:hover, button:hover {
+    background-color: #424242;
+}
+
+.output, .output-title {
+    display: none;
+    align-items: center;
+    width: fit-content;
+    max-width: 400px;
+    margin: 0 auto;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+p {
+    color: #FFFFFF;
+}
