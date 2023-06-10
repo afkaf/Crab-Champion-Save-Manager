@@ -14,6 +14,8 @@ This tool is a custom solution designed to help you manage your game runs in Cra
 
 ## How To Use
 
+Access the tool using this link: [Crab Champions Save Manager](https://afkaf.github.io/Crab-Champion-Save-Manager/)
+
 1. **Extract a Run**: Load your `SaveSlot.sav` file and the tool will display the current run data. If a run exists, you can choose to extract it by clicking the 'Extract' button.
 
 2. **Insert a Run**: If you wish to load a different run, click on 'Insert' and select the desired saved run in JSON format. If no run is currently in progress, you can still insert a previously saved run.
